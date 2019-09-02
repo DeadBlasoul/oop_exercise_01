@@ -1,12 +1,9 @@
 #include <iostream>
-
-using namespace std;
+#include <cmath>
 
 class Complex {
 public:
-    Complex() = default;
-    
-    explicit Complex(double real, double imaginary = 0.0) noexcept 
+    explicit Complex(double real, double imaginary) noexcept 
         : re(real)
         , im(imaginary) 
     {}
@@ -46,7 +43,7 @@ public:
     }
 
     double mod() const noexcept {
-        return this->mul(this->conj()).re;
+        return std::sqrt(this->mul(this->conj()).re);
     }
 
 private:
@@ -54,5 +51,5 @@ private:
 };
 
 int main() {
-
+    Complex c{ 3 };
 }
