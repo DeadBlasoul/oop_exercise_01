@@ -1,0 +1,7 @@
+Comparation
+Cmp 1 1 -1 -1
+0
+Cmp 1 1 0 1
+1
+Cmp 0 1 1 0
+0
