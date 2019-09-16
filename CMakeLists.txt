@@ -3,17 +3,17 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-project (OOP-Lab01)
+project (LabWork)
 
 file (GLOB_RECURSE Lab_SRC
     "src/*.cpp"
     "src/*.h"
 )
 
-if (WIN32)
-    if (MSVC)
-        add_definitions(-D_CRT_SECURE_NO_WARNINGS)
-    endif ()
-endif()
+set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
 
-add_executable (lab ${Lab_SRC})
+include(config)
+
+add_subdirectory(src/lib) # Main library
+add_subdirectory(apps)    # Custom executables
+add_subdirectory(tests)   # Unit tests
