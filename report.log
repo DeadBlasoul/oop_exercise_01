@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  16 SEP 2019 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.16)  16 SEP 2019 16:10
 entering extended mode
 **./report.tex
 (report.tex
@@ -533,8 +533,12 @@ port.aex <nul: /p x=^%~$PATH:i>> report.aex)...executed.
 
 runsystem(del report.aex)...executed.
 
+ (report.aux
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 3.
 
-No file report.aux.
+("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd"
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -550,10 +554,6 @@ LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 13.
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 13.
-("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd"
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
 LaTeX Font Info:    ... okay on input line 13.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
@@ -572,21 +572,8 @@ LaTeX Font Info:    ... okay on input line 13.
 ) [1
 
 {C:/Users/deadblasoul/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[1]
-runsystem(pygmentize -S default -f latex -P commandprefix=PYG > _minted-report\
-default-pyg-prefix.pygstyle)...executed.
-
- (_minted-report/default-pyg-prefix.pygstyle)
-runsystem(pygmentize -S default -f latex -P commandprefix=PYGdefault > _minted-
-report\default.pygstyle)...executed.
-
-
+[1] (_minted-report/default-pyg-prefix.pygstyle)
 (_minted-report/default.pygstyle)
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-report/9FE1093D0D27F606A3BB9CCE74C25337C10C8F5B84F24C0061605240A3427193.pyg
-tex include/complex.hpp)...executed.
-
-
 (_minted-report/9FE1093D0D27F606A3BB9CCE74C25337C10C8F5B84F24C0061605240A342719
 3.pygtex
 LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 1.
@@ -597,23 +584,13 @@ LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 9.
  [2]
 [3]) [4]
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-report/F9610DE86264ADEEF9B70F9C17988CCD2D7EE6E337FD1B7E67DD4DAE7FDBFCF5.pyg
-tex src/lib/complex.cpp)...executed.
-
-
 (_minted-report/F9610DE86264ADEEF9B70F9C17988CCD2D7EE6E337FD1B7E67DD4DAE7FDBFCF
 5.pygtex) [5]
-runsystem(pygmentize -l C++ -f latex -P commandprefix=PYG -F tokenmerge -o _min
-ted-report/C13B5AAB181A49FEEA51FFCDAEDEC8904E36780F0CC8E129909874F84907F55D.pyg
-tex apps/main.cpp)...executed.
-
-
 (_minted-report/C13B5AAB181A49FEEA51FFCDAEDEC8904E36780F0CC8E129909874F84907F55
 D.pygtex [6]) [7] (report.aux) ) 
 Here is how much of TeX's memory you used:
- 6369 strings out of 492895
- 105358 string characters out of 3133461
+ 6371 strings out of 492895
+ 105446 string characters out of 3133461
  229346 words of memory out of 3000000
  10180 multiletter control sequences out of 15000+200000
  10405 words of font info for 25 fonts, out of 3000000 for 9000
@@ -629,7 +606,7 @@ t2a/dpi600\lati1200.pk> <C:\Users\deadblasoul\AppData\Local\MiKTeX\2.9\fonts/pk
 /ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\deadblasoul\AppData\Local\MiKTe
 X\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2488.pk> <C:\Users\deadblasoul\AppDa
 ta\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk>
-Output written on report.pdf (8 pages, 119639 bytes).
+Output written on report.pdf (8 pages, 119624 bytes).
 PDF statistics:
  361 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
